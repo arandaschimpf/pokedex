@@ -1,34 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Examen Programacion 3
+=====================
 
-## Getting Started
+Enunciado:
 
-First, run the development server:
+Realizar una app de Next 13 para gestionar una pokedex
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Historias de usuario:
+* Como usuario no logueado, quiero poder ver el listado de pokemons en forma de tarjetas, mostrando su nombre, imagen y tipos. El color de la tarjeta debe ser correspondiente a su tipo principal
+* Como usuario no logueado, quiero poder ver el detalle de un pokemon, mostrando su nombre, imagen, tipos, altura, peso, habilidades y estadísticas
+* Como usuario no logueado, quiero poder buscar pokemons por nombre
+* Como usuario no logueado, quiero poder crear una cuenta ingresando un nombre de usuario (no email, único) y contraseña. Requisito no funcional: Dicha contraseña debe ser almacenada de manera segura
+* Como usuario no logueado, quiero poder iniciar sesión ingresando mi nombre de usuario y contraseña
+* Como usuario logueado, quiero poder cerrar sesión
+* Como usuario logueado, quiero poder crear registros en el listado de pokemons. Para esto puedo ingresar un número, realizar una busqueda de los datos de dicho pokemon en una API externa, y popular los campos necesarios para crear el registro. Además debería poder subir una imagen para el mismo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Ejemplo API externa: https://pokeapi.co/api/v2/pokemon/1
